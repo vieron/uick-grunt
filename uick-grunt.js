@@ -33,6 +33,7 @@
         // Project configuration.
         grunt.initConfig({
           pkg: pkg,
+          components: grunt.file.readJSON('component.json'),
           meta: {
             banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
                     '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
