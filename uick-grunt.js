@@ -50,9 +50,9 @@
             options: {
               banner: '<%= meta.minibanner %>\n'
             },
-            build: {
-              src: 'build/<%= pkg.name %>.js',
-              dest: 'build/<%= pkg.name %>.min.js'
+            files: {
+              'build/<%= pkg.name %>.min.js': ['build/<%= pkg.name %>.js'],
+              'build/<%= pkg.name %>-standalone.min.js': ['build/<%= pkg.name %>-standalone.js']
             }
           },
           cssmin: {
@@ -132,7 +132,7 @@
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-mocha');
 
         // Default task(s).
-        grunt.registerTask('default', ['component_build', 'uglify', 'cssmin']);
+        grunt.registerTask('default', ['component_build', 'concat', 'uglify', 'cssmin']);
         grunt.registerTask('test', ['mocha']);
     };
 
