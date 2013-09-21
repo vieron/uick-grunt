@@ -1,0 +1,42 @@
+{
+  "name": "uick-grunt",
+  "version": "0.0.1",
+  "description": "Grunt config shared across all uick components",
+  "main": "uick-grunt.js",
+  "homepage": "http://vieron.net",
+  "author": {
+    "name": "vieron",
+    "email": "hola@vieron.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vieron/uick-grunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vieron/uick-grunt/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vieron/uick-grunt/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "component": "*",
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-component-build": "~0.3.2",
+    "component-sass": "~0.1.2",
+    "component-builder": "0.9.x"
+    "grunt-contrib-concat": "~0.3.0",
+    "underscore": "~1.5.2",
+    "grunt-mocha": "~0.4.1"
+  },
+  "devDependencies": {
+  }
+}
