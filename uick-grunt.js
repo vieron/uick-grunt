@@ -66,6 +66,7 @@
               }
             }
           },
+
           component_build: component,
 
           concat: {
@@ -123,12 +124,12 @@
         });
 
         // Load the plugin that provides the "uglify" task.
-        grunt.loadNpmTasks('grunt-contrib-watch');
-        grunt.loadNpmTasks('grunt-contrib-concat');
-        grunt.loadNpmTasks('grunt-contrib-uglify');
-        grunt.loadNpmTasks('grunt-contrib-cssmin');
-        grunt.loadNpmTasks('grunt-component-build');
-        grunt.loadNpmTasks('grunt-mocha');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-contrib-watch');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-contrib-concat');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-contrib-uglify');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-contrib-cssmin');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-component-build');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-mocha');
 
         // Default task(s).
         grunt.registerTask('default', ['component_build', 'uglify', 'cssmin']);
