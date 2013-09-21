@@ -1,6 +1,6 @@
 {
   "name": "uick-grunt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Grunt config shared across all uick components",
   "main": "uick-grunt.js",
   "homepage": "http://vieron.net",
