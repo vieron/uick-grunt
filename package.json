@@ -1,6 +1,6 @@
 {
   "name": "uick-grunt",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Grunt config shared across all uick components",
   "main": [
     "uick-grunt.js",
