@@ -120,6 +120,25 @@
                 }
             },
 
+            jsduck: {
+                main: {
+                    // source paths with your code
+                    src: [
+                        'index.js'
+                    ],
+
+                    // docs output dir
+                    dest: 'docs',
+
+                    // extra options
+                    options: {
+                        'builtin-classes': true,
+                        'warnings': ['-no_doc', '-dup_member', '-link_ambiguous'],
+                        'external': ['XMLHttpRequest']
+                    }
+                }
+            },
+
             watch: {
                 files: ['index.js', 'templates/*.html', 'index.scss', 'Gruntfile.js'],
                 tasks: ['component_build', 'concat', 'uglify', 'cssmin']
@@ -133,10 +152,12 @@
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-contrib-cssmin');
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-component-build');
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-mocha');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-jsduck');
 
         // Default task(s).
         grunt.registerTask('default', ['component_build', 'concat', 'uglify', 'cssmin']);
         grunt.registerTask('test', ['mocha']);
+        grunt.registerTask('docs', ['jsduck']);
     };
 
 

@@ -1,6 +1,6 @@
 {
   "name": "uick-grunt",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Grunt config shared across all uick components",
   "main": "uick-grunt.js",
   "homepage": "http://vieron.net",
@@ -32,6 +32,7 @@
     "grunt-contrib-concat": "~0.3.0",
     "grunt-component-build": "~0.3.2",
     "grunt-mocha": "~0.4.1",
+    "grunt-jsduck": "0.1.4",
     "component-sass": "~0.1.2",
     "underscore": "~1.5.2"
   },
