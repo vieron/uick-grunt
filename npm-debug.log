@@ -4,7 +4,7 @@
 3 info using node@v0.10.5
 4 verbose publish [ '.' ]
 5 verbose read json /Users/vieron/Sites/projects/vieron.net/ui-components/uick-grunt/package.json
-6 warn package.json uick-grunt@0.0.14 No README.md file found!
+6 warn package.json uick-grunt@0.0.15 No README.md file found!
 7 verbose cache add [ '.', null ]
 8 verbose cache add name=undefined spec="." args=[".",null]
 9 verbose parsed url { protocol: null,
@@ -22,24 +22,24 @@
 10 silly lockFile 3a52ce78- .
 11 verbose lock . /Users/vieron/.npm/3a52ce78-.lock
 12 verbose read json package.json
-13 verbose tar pack [ '/var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz',
+13 verbose tar pack [ '/var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz',
 13 verbose tar pack   '.' ]
-14 verbose tarball /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
+14 verbose tarball /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
 15 verbose folder .
-16 info prepublish uick-grunt@0.0.14
+16 info prepublish uick-grunt@0.0.15
 17 silly lockFile 3a52ce78- .
 18 verbose lock . /Users/vieron/.npm/3a52ce78-.lock
-19 silly lockFile 9525e71d-560607-0-549694963498041-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-20 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz /Users/vieron/.npm/9525e71d-560607-0-549694963498041-tmp-tgz.lock
+19 silly lockFile c151c963-24958-0-5241718220058829-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+20 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz /Users/vieron/.npm/c151c963-24958-0-5241718220058829-tmp-tgz.lock
 21 silly lockFile 3a52ce78- .
 22 silly lockFile 3a52ce78- .
-23 silly lockFile 9525e71d-560607-0-549694963498041-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-24 silly lockFile 9525e71d-560607-0-549694963498041-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-25 verbose tar unpack /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-26 silly lockFile 8a22737f-560607-0-549694963498041-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-27 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package /Users/vieron/.npm/8a22737f-560607-0-549694963498041-package.lock
-28 silly lockFile 9525e71d-560607-0-549694963498041-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-29 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz /Users/vieron/.npm/9525e71d-560607-0-549694963498041-tmp-tgz.lock
+23 silly lockFile c151c963-24958-0-5241718220058829-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+24 silly lockFile c151c963-24958-0-5241718220058829-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+25 verbose tar unpack /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+26 silly lockFile 9f0bb35e-24958-0-5241718220058829-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+27 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package /Users/vieron/.npm/9f0bb35e-24958-0-5241718220058829-package.lock
+28 silly lockFile c151c963-24958-0-5241718220058829-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+29 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz /Users/vieron/.npm/c151c963-24958-0-5241718220058829-tmp-tgz.lock
 30 silly gunzTarPerm modes [ '755', '644' ]
 31 silly gunzTarPerm extractEntry package.json
 32 silly gunzTarPerm extractEntry .npmignore
@@ -47,33 +47,33 @@
 34 silly gunzTarPerm extractEntry LICENSE
 35 silly gunzTarPerm extractEntry uick-grunt.js
 36 silly gunzTarPerm extractEntry update-gh-pages.sh
-37 verbose read json /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package/package.json
-38 silly lockFile 8a22737f-560607-0-549694963498041-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-39 silly lockFile 8a22737f-560607-0-549694963498041-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-40 silly lockFile 9525e71d-560607-0-549694963498041-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-41 silly lockFile 9525e71d-560607-0-549694963498041-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/tmp.tgz
-42 verbose from cache /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package/package.json
-43 verbose tar pack [ '/Users/vieron/.npm/uick-grunt/0.0.14/package.tgz',
-43 verbose tar pack   '/var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package' ]
-44 verbose tarball /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-45 verbose folder /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-46 silly lockFile 8a22737f-560607-0-549694963498041-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-47 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package /Users/vieron/.npm/8a22737f-560607-0-549694963498041-package.lock
-48 silly lockFile 24dcc8d1-pm-uick-grunt-0-0-14-package-tgz /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-49 verbose lock /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz /Users/vieron/.npm/24dcc8d1-pm-uick-grunt-0-0-14-package-tgz.lock
-50 silly lockFile 8a22737f-560607-0-549694963498041-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-51 silly lockFile 8a22737f-560607-0-549694963498041-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-88112/1379859560607-0.549694963498041/package
-52 silly lockFile 24dcc8d1-pm-uick-grunt-0-0-14-package-tgz /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-53 silly lockFile 24dcc8d1-pm-uick-grunt-0-0-14-package-tgz /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-54 silly lockFile 365ae847-on-npm-uick-grunt-0-0-14-package /Users/vieron/.npm/uick-grunt/0.0.14/package
-55 verbose lock /Users/vieron/.npm/uick-grunt/0.0.14/package /Users/vieron/.npm/365ae847-on-npm-uick-grunt-0-0-14-package.lock
-56 silly lockFile 365ae847-on-npm-uick-grunt-0-0-14-package /Users/vieron/.npm/uick-grunt/0.0.14/package
-57 silly lockFile 365ae847-on-npm-uick-grunt-0-0-14-package /Users/vieron/.npm/uick-grunt/0.0.14/package
-58 verbose tar unpack /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-59 silly lockFile 365ae847-on-npm-uick-grunt-0-0-14-package /Users/vieron/.npm/uick-grunt/0.0.14/package
-60 verbose lock /Users/vieron/.npm/uick-grunt/0.0.14/package /Users/vieron/.npm/365ae847-on-npm-uick-grunt-0-0-14-package.lock
-61 silly lockFile 24dcc8d1-pm-uick-grunt-0-0-14-package-tgz /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-62 verbose lock /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz /Users/vieron/.npm/24dcc8d1-pm-uick-grunt-0-0-14-package-tgz.lock
+37 verbose read json /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package/package.json
+38 silly lockFile 9f0bb35e-24958-0-5241718220058829-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+39 silly lockFile 9f0bb35e-24958-0-5241718220058829-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+40 silly lockFile c151c963-24958-0-5241718220058829-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+41 silly lockFile c151c963-24958-0-5241718220058829-tmp-tgz /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/tmp.tgz
+42 verbose from cache /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package/package.json
+43 verbose tar pack [ '/Users/vieron/.npm/uick-grunt/0.0.15/package.tgz',
+43 verbose tar pack   '/var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package' ]
+44 verbose tarball /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+45 verbose folder /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+46 silly lockFile 9f0bb35e-24958-0-5241718220058829-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+47 verbose lock /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package /Users/vieron/.npm/9f0bb35e-24958-0-5241718220058829-package.lock
+48 silly lockFile dbee6cff-pm-uick-grunt-0-0-15-package-tgz /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+49 verbose lock /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz /Users/vieron/.npm/dbee6cff-pm-uick-grunt-0-0-15-package-tgz.lock
+50 silly lockFile 9f0bb35e-24958-0-5241718220058829-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+51 silly lockFile 9f0bb35e-24958-0-5241718220058829-package /var/folders/hb/g29rtlzd0xv8bqbymgtgf4nc0000gn/T/npm-89356/1379859924958-0.5241718220058829/package
+52 silly lockFile dbee6cff-pm-uick-grunt-0-0-15-package-tgz /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+53 silly lockFile dbee6cff-pm-uick-grunt-0-0-15-package-tgz /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+54 silly lockFile 4ec9ddd9-on-npm-uick-grunt-0-0-15-package /Users/vieron/.npm/uick-grunt/0.0.15/package
+55 verbose lock /Users/vieron/.npm/uick-grunt/0.0.15/package /Users/vieron/.npm/4ec9ddd9-on-npm-uick-grunt-0-0-15-package.lock
+56 silly lockFile 4ec9ddd9-on-npm-uick-grunt-0-0-15-package /Users/vieron/.npm/uick-grunt/0.0.15/package
+57 silly lockFile 4ec9ddd9-on-npm-uick-grunt-0-0-15-package /Users/vieron/.npm/uick-grunt/0.0.15/package
+58 verbose tar unpack /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+59 silly lockFile 4ec9ddd9-on-npm-uick-grunt-0-0-15-package /Users/vieron/.npm/uick-grunt/0.0.15/package
+60 verbose lock /Users/vieron/.npm/uick-grunt/0.0.15/package /Users/vieron/.npm/4ec9ddd9-on-npm-uick-grunt-0-0-15-package.lock
+61 silly lockFile dbee6cff-pm-uick-grunt-0-0-15-package-tgz /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+62 verbose lock /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz /Users/vieron/.npm/dbee6cff-pm-uick-grunt-0-0-15-package-tgz.lock
 63 silly gunzTarPerm modes [ '755', '644' ]
 64 silly gunzTarPerm extractEntry package.json
 65 silly gunzTarPerm extractEntry .npmignore
@@ -81,20 +81,20 @@
 67 silly gunzTarPerm extractEntry LICENSE
 68 silly gunzTarPerm extractEntry uick-grunt.js
 69 silly gunzTarPerm extractEntry update-gh-pages.sh
-70 verbose read json /Users/vieron/.npm/uick-grunt/0.0.14/package/package.json
-71 silly lockFile 365ae847-on-npm-uick-grunt-0-0-14-package /Users/vieron/.npm/uick-grunt/0.0.14/package
-72 silly lockFile 365ae847-on-npm-uick-grunt-0-0-14-package /Users/vieron/.npm/uick-grunt/0.0.14/package
-73 silly lockFile 24dcc8d1-pm-uick-grunt-0-0-14-package-tgz /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-74 silly lockFile 24dcc8d1-pm-uick-grunt-0-0-14-package-tgz /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-75 silly shasum updated bytes 3260
-76 info shasum 75386664fe58ecc0ebc66f0e056d7f321393254b
-76 info shasum /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz
-77 verbose from cache /Users/vieron/.npm/uick-grunt/0.0.14/package/package.json
-78 verbose chmod /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz 644
-79 verbose chown /Users/vieron/.npm/uick-grunt/0.0.14/package.tgz [ 501, 20 ]
+70 verbose read json /Users/vieron/.npm/uick-grunt/0.0.15/package/package.json
+71 silly lockFile 4ec9ddd9-on-npm-uick-grunt-0-0-15-package /Users/vieron/.npm/uick-grunt/0.0.15/package
+72 silly lockFile 4ec9ddd9-on-npm-uick-grunt-0-0-15-package /Users/vieron/.npm/uick-grunt/0.0.15/package
+73 silly lockFile dbee6cff-pm-uick-grunt-0-0-15-package-tgz /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+74 silly lockFile dbee6cff-pm-uick-grunt-0-0-15-package-tgz /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+75 silly shasum updated bytes 3281
+76 info shasum b4e6dd24b252fa6c231672e417f7a107cba8a3e4
+76 info shasum /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz
+77 verbose from cache /Users/vieron/.npm/uick-grunt/0.0.15/package/package.json
+78 verbose chmod /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz 644
+79 verbose chown /Users/vieron/.npm/uick-grunt/0.0.15/package.tgz [ 501, 20 ]
 80 silly lockFile 3a52ce78- .
 81 silly publish { name: 'uick-grunt',
-81 silly publish   version: '0.0.14',
+81 silly publish   version: '0.0.15',
 81 silly publish   description: 'Grunt config shared across all uick components',
 81 silly publish   main: [ 'uick-grunt.js', 'update-gh-pages.sh' ],
 81 silly publish   homepage: 'http://vieron.net',
@@ -121,19 +121,19 @@
 81 silly publish   devDependencies: {},
 81 silly publish   readme: 'ERROR: No README.md file found!',
 81 silly publish   readmeFilename: 'README.md',
-81 silly publish   _id: 'uick-grunt@0.0.14',
-81 silly publish   dist: { shasum: '75386664fe58ecc0ebc66f0e056d7f321393254b' },
+81 silly publish   _id: 'uick-grunt@0.0.15',
+81 silly publish   dist: { shasum: 'b4e6dd24b252fa6c231672e417f7a107cba8a3e4' },
 81 silly publish   _from: '.' }
 82 verbose url raw uick-grunt
 83 verbose url resolving [ 'https://registry.npmjs.org/', './uick-grunt' ]
 84 verbose url resolved https://registry.npmjs.org/uick-grunt
-85 info trying registry request attempt 1 at 16:19:33
+85 info trying registry request attempt 1 at 16:25:35
 86 http PUT https://registry.npmjs.org/uick-grunt
 87 http 409 https://registry.npmjs.org/uick-grunt
 88 verbose url raw uick-grunt
 89 verbose url resolving [ 'https://registry.npmjs.org/', './uick-grunt' ]
 90 verbose url resolved https://registry.npmjs.org/uick-grunt
-91 info trying registry request attempt 1 at 16:19:34
+91 info trying registry request attempt 1 at 16:25:37
 92 http GET https://registry.npmjs.org/uick-grunt
 93 http 200 https://registry.npmjs.org/uick-grunt
 94 error publish fail Cannot publish over existing version.
