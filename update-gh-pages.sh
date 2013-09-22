@@ -1,5 +1,9 @@
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   echo -e "Starting to update gh-pages\n"
+
+  sudo gem install jsduck
+
+  grunt docs
   #copy data we're interested in to other place
   cp -R docs $HOME/docs
 
