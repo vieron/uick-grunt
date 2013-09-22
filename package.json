@@ -2,7 +2,10 @@
   "name": "uick-grunt",
   "version": "0.0.8",
   "description": "Grunt config shared across all uick components",
-  "main": "uick-grunt.js",
+  "main": [
+    "uick-grunt.js",
+    "update-gh-pages.sh"
+  ],
   "homepage": "http://vieron.net",
   "author": {
     "name": "vieron",
