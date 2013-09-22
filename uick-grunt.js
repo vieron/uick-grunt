@@ -132,7 +132,8 @@
 
                     // extra options
                     options: {
-                        'builtin-classes': true,
+                        'title': '<%= pkg.name %>',
+                        'builtin-classes': false,
                         'warnings': ['-no_doc', '-dup_member', '-link_ambiguous'],
                         'external': ['XMLHttpRequest']
                     }
