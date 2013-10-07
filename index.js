@@ -146,7 +146,7 @@
                 updateConfigs: ['pkg',  'components'],
                 commit: true,
                 commitMessage: 'Release v%VERSION%',
-                commitFiles: ['package.json', 'component.json', 'build/'], // '-a' for all files
+                commitFiles: ['package.json', 'component.json', 'CHANGELOG.md', 'build/'], // '-a' for all files
                 createTag: true,
                 tagName: 'v%VERSION%',
                 tagMessage: 'Version %VERSION%',
@@ -154,6 +154,13 @@
                 pushTo: 'origin',
                 gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d' // options to use with '$ git describe'
               }
+            },
+
+            changelog: {
+                options: {
+                    dest: 'CHANGELOG.md',
+                    version: 'v<%= pkg.version %>'
+                }
             },
 
             watch: {
@@ -171,16 +178,17 @@
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-mocha');
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-jsduck');
         grunt.loadNpmTasks('uick-grunt/node_modules/grunt-bump');
+        grunt.loadNpmTasks('uick-grunt/node_modules/grunt-conventional-changelog');
 
         // Default task(s).
         grunt.registerTask('default', ['component_build', 'concat', 'uglify', 'cssmin']);
         grunt.registerTask('build', ['default']);
         grunt.registerTask('test', ['mocha']);
         grunt.registerTask('docs', ['jsduck']);
-        grunt.registerTask('release', ['bump-only:patch', 'build', 'test', 'docs', 'bump-commit']);
-        grunt.registerTask('release:minor', ['bump-only:minor', 'build', 'test', 'docs', 'bump-commit']);
-        grunt.registerTask('release:major', ['bump-only:major', 'build', 'test', 'docs', 'bump-commit']);
-        grunt.registerTask('release:git', ['bump-only:git', 'build', 'test', 'docs', 'bump-commit']);
+        grunt.registerTask('release', ['build', 'test', 'bump-only:patch', 'build', 'docs', 'changelog', 'bump-commit']);
+        grunt.registerTask('release:minor', ['build', 'test', 'bump-only:minor', 'build', 'docs', 'changelog', 'bump-commit']);
+        grunt.registerTask('release:major', ['build', 'test', 'bump-only:major', 'build', 'docs', 'changelog', 'bump-commit']);
+        grunt.registerTask('release:git', ['build', 'test', 'bump-only:git', 'build', 'docs', 'changelog', 'bump-commit']);
     };
 
 
