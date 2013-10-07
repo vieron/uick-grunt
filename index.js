@@ -158,8 +158,7 @@
 
             changelog: {
                 options: {
-                    dest: 'CHANGELOG.md',
-                    version: 'v<%= pkg.version %>'
+                    dest: 'CHANGELOG.md'
                 }
             },
 
